@@ -571,20 +571,19 @@ white-space: nowrap;
     margin-top: 40px;
 }
 .footer .social-link{
+    background:#F9F9F9;
     width: 28px;
     height: 28px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
-    margin-right: 10px;
-
-   
+}
+.footer .social-link + .social-link{
+    margin-left: 10px;
 }
 .footer .social-link:hover{
     background:#eff1f3
-
-
 }
 .footer .row-bottom{
     margin-top: 81px;
