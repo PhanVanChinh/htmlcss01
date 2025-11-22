@@ -145,11 +145,21 @@ overflow: hidden;
     margin-top: 2.3rem;
 }
 .clients .images{
-    margin-top: 9.6rem;
+    margin-top: 7rem;
     display:flex;
     justify-content: space-between;
     align-items:center;
 }
+.clients .images a{
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
+    height: 90px;
+    border-radius: 12px;
+
+}
+.clients .images a:hover{
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.10);}
 /* guides */
 .guides{
     margin-top: 4rem;
