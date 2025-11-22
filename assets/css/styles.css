@@ -11,6 +11,9 @@ body {
     font-size: 1.6rem;
     font-family: "Poppins";
 }
+body,html{
+    scroll-behavior: smooth;
+}
 /* common */
 .content{
     width: 1110px;
@@ -52,7 +55,7 @@ overflow: hidden;
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 100vh;
+    height:calc(100vh - 90px);
 }
 .navbar{
     display:flex;
